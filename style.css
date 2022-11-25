@@ -1,0 +1,39 @@
+/*Theme Name:   Suki child
+ Theme URI:    https://jooma.gabi-ncyl.dk/
+ Description:  This child theme was built upon the parent theme Suki
+ Author:       Gabriella Timár
+ Author URI:   https://jooma.gabi-ncyl.dk/
+ Template:     suki
+ Version:      1.0.2
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  sukichild*/ 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: black;
+    font-family: 'Nanum Pen Script', cursive;
+    font-weight: bold;
+}
+h2{
+    color: black;
+    font-family: 'Nanum Pen Script', cursive;
+}
+p{
+    color: black;
+    font-family: 'Questrial', sans-serif;
+}
+.content-header.suki-text-align-left {
+    display: none;
+}
+
+.wf-active .hero-section .hero-title {
+    display: none;
+}
+div.content-header.suki-text-align-left{
+    display: none;
+}
